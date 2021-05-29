@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/li-scroller.css" media="screen" /> 
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <script defer src="js/jquery-3.6.0.min.js"></script>
+   <script defer type="text/javascript" src="js/jquery.li-scroller.1.0.js"></script> 
+   <script defer src="js/scroll.js"></script>
+   <script defer src="js/swiper.js"></script>
+   <script defer src="js/main.js"></script>
+
+   <title>Дон24</title>
+</head>
+<body>
+<header class="header">
+<div class="dynamic-string">
+   <ul id="ticker1">
+      <li><span><img class="string-logo" src="img/don24logostring.png" alt="string-logo"><p>Более 250 тысяч за месяц: какие нарушения чаще всего допускают ростовские водители</p></span></li>
+      <li><span><img class="string-logo" src="img/don24logostring.png" alt="string-logo"><p>Держитесь подальше: соцсети дали совет желающим переехать в Ростов.</p></span></li>
+      <li><span> <img class="string-logo" src="img/don24logostring.png" alt="string-logo"><p>В Ростове на 73-м году жизни умер профессор ЮРИУ РАНХиГС Сергей Воронцов. Жители Таганрога жестко осудили девушку, которая кормит бездомных собак.</p></span></li>
+   </ul>
+</div>
+
+<nav class="nav-info">
+   <ul class="nav-info-list">
+      <li><a class="nav-info-links" href="#">Газета «Молот»</a></li>
+      <li><a class="nav-info-links" href="#">Радио «ФМ-Н»</a></li>
+      <li><a class="nav-info-links" href="#">Телеканал «Дон24»</a></li>
+      <li><a class="nav-info-links" href="#">ИА «Дон24»</a></li>
+      <li><a class="nav-info-links" href="#">Пресс-Центр «Дон-Медиа»</a></li>
+      <li><a class="nav-info-links" href="#">Реклама </a></li>
+      <li><a class="nav-info-links" href="#">Продюсерский центр</a></li>
+      <li><a class="nav-info-links" href="#">Версия для слабовидящих</a></li>
+   </ul>
+</nav>
+<div class="logo-container">
+   <div class="main-logo-block"><img class= "main-logo" src="img/don24mainlogo.png" alt="logo-don24">
+   <span class="age-censore"><p>12+</p></span></div>
+   <img class="radio-banner" src="img/banner.png" alt="radio-logo">
+   <ul class="social-network-list">
+      <li>
+         <a class="social-network-links" href="">
+            <svg class="icon" width="17.34px" height="17.24px">
+               <use xlink:href="img/icons.svg#facebook"></use>
+            </svg>
+         </a>
+      </li>
+      <li>
+         <a class="social-network-links" href="">
+            <svg class="icon" width="18px" height="9px">
+               <use xlink:href="img/icons.svg#vk"></use>
+            </svg>
+         </a>
+      </li>
+      <li>
+         <a class="social-network-links" href="">
+            <svg class="icon" width="14px" height="11px">
+               <use xlink:href="img/icons.svg#twitter"></use>
+            </svg>
+         </a>
+      </li>
+      <li>
+         <a class="social-network-links" href="">
+            <svg class="icon" width="14.19px" height="14.19px">
+               <use xlink:href="img/icons.svg#instagramm"></use>
+            </svg>
+         </a>
+      </li>
+      <li>
+         <a class="social-network-links" href="">
+            <svg class="icon" width="16px" height="16px">
+               <use xlink:href="img/icons.svg#ok"></use>
+            </svg>
+         </a>
+      </li>
+      <li>
+         <a class="social-network-links" href="">
+            <svg class="icon" width="14px" height="14px">
+               <use xlink:href="img/icons.svg#youtube"></use>
+            </svg>
+         </a>
+      </li>
+   </ul>
+</div>
+<nav class="main-nav">
+   <ul class="main-nav-list">
+      <li><a class="main-nav-links" href="#">Главная</a></li>
+      <li><a class="main-nav-links" href="#">Прямой эфир</a></li>
+      <li><a class="main-nav-links" href="#">Новости</a></li>
+      <li><a class="main-nav-links" href="#">Программы</a></li>
+      <li><a class="main-nav-links" href="#">Команда</a></li>
+      <li><a class="main-nav-links" href="#">О телеканале</a></li>
+      <li> 
+         
+         <span class="search-area">
+            <span class="fake-search-input"></span>
+            <input type="text" class="search-input" name="search" placeholder="Поиск">
+               <button class="search-button">
+                  <a class="search-link" href="#">
+                     <img src="img/search.png" alt="search">
+                  </a>
+               </button>
+         </span>
+      </li>
+   </ul>
+</nav>
+</header>
+
+<main class="main-content">
+   <section class="main-news">
+      
+      
+      <div class="programm-slider">
+         
+         <div class="banner-button-prev swiper-buttons">
+            <svg class="icon" height="56px" width="36px">
+               <use xlink:href="img/icons.svg#left-button"></use>
+             </svg>
+         </div>
+         <div class="banner-button-next swiper-buttons">
+            <svg class="icon" height="56px" width="36px">
+               <use xlink:href="img/icons.svg#right-button"></use>
+             </svg>
+         </div>
+        
+
+         <div class="swiper-container channel-slider">
+            <div class="swiper-wrapper">
+               <!-- Slides -->
+               
+
+               <div class="swiper-slide banner-swiper-slide">
+                  <div class="banner-info">
+                     <span>Ежедневно в 13.00 15.00 18.00</span>
+                  </div>
+                  <img src="img/newsbanner.png" alt="programm-banner" class="thumbnail">
+               </div>
+               <div class="swiper-slide banner-swiper-slide">
+                  <div class="banner-info">
+                     <span>Ежедневно в 13.00 15.00 18.00</span>
+                  </div>
+                  <img src="img/newsbanner.png" alt="programm-banner" class="thumbnail">
+               </div>
+               <div class="swiper-slide banner-swiper-slide">
+                  <div class="banner-info">
+                     <span>Ежедневно в 13.00 15.00 18.00</span>
+                  </div>
+                  <img src="img/newsbanner.png" alt="programm-banner" class="thumbnail">
+               </div>
+               <div class="swiper-slide banner-swiper-slide">
+                  <div class="banner-info">
+                     <span>Ежедневно в 13.00 15.00 18.00</span>
+                  </div>
+                  <img src="img/newsbanner.png" alt="programm-banner" class="thumbnail">
+               </div>
+            </div>
+         </div>
+         
+
+         <div class="swiper-pagination">
+            <div class="bullets">
+            </div>
+         </div>
+
+      </div>
+
+
+      <h2 class="blocks-title">Сейчас в эфире</h2>
+   <section class="live-block">
+      
+
+      <div class="live-video">
+         <img src="/img/livevideothumbnail.png" alt="thumbnail">
+      </div>
+      <div class="live-programm">
+         <div class="live-programm-titles">
+            <span class="live-programm-time">14:15
+               <img class="live-marker" src="img/live.png" alt="live marker">
+            </span>
+            <span class="live-programm-name">Живые символы планеты</span>
+         </div>
+         <div class="live-programm-titles">
+            <span class="live-programm-time">15:00</span>
+            <span class="live-programm-name">Новости</span>
+         </div>
+         <div class="live-programm-titles">
+            <span class="live-programm-time">15:45</span>
+            <span class="live-programm-name">Третий возраст</span>
+         </div>
+         <div class="live-programm-titles">
+            <span class="live-programm-time">16:00</span>
+            <span class="live-programm-name">Мультфильмы</span>
+         </div>
+         <div class="live-programm-titles">
+            <span class="live-programm-time">16:00</span>
+            <span class="live-programm-name">Мультфильмы</span>
+         </div>
+         <div class="live-programm-titles">
+            <span class="live-programm-time">16:00</span>
+            <span class="live-programm-name">Мультфильмы</span>
+         </div>
+         <div class="live-programm-titles">
+            <span class="live-programm-time">16:00</span>
+            <span class="live-programm-name">Мультфильмы</span>
+         </div>
+      </div>
+   
+   </section>
+
+
+   <h2 class="blocks-title">Сюжеты и репортажи</h2>
+   
+   <div class="reportage-swiper">
+
+      <div class="reportage-button-prev swiper-buttons">
+         <svg class="icon" height="56px" width="36px">
+            <use xlink:href="img/icons.svg#left-button"></use>
+          </svg>
+      </div>
+      <div class="reportage-button-next swiper-buttons">
+         <svg class="icon" height="56px" width="36px">
+            <use xlink:href="img/icons.svg#right-button"></use>
+          </svg>
+      </div>
+     
+      <!-- Slider main container -->
+		<div class="swiper-container channel-slider-2">
+				<!-- Additional required wrapper -->
+			<div class="swiper-wrapper">
+				<!-- Slides -->
+				<div class="swiper-slide reportage-swiper-slide">
+					<div class="video-card">
+						<div class="video-thumb">
+							<img src="img/donagrares.jpg" alt="donagrares" class="thumbnail-2">
+							
+						</div>
+						<!--/. video thumb-->
+						<h3 class="video-title">Донские аграрии приступ...</h3>
+						<div class="video-info">
+							<span class="video-counter">
+								<span class="video-date">12.03.2021</span>
+							</span>
+							<span class="video-text">Постковидный год и выход бизнеса из периода ограничений</span>
+						</div>
+					</div>
+					<!-- /. video card-->
+				</div>			
+				<!-- /. swiper-slide-->
+
+            <div class="swiper-slide reportage-swiper-slide">
+					<div class="video-card">
+						<div class="video-thumb">
+							<img src="img/donagrares2.jpg" alt="donagrares" class="thumbnail-2">
+							
+						</div>
+						<!--/. video thumb-->
+						<h3 class="video-title">Донские аграрии приступ...</h3>
+						<div class="video-info">
+							<span class="video-counter">
+								<span class="video-date">12.03.2021</span>
+							</span>
+							<span class="video-text">Постковидный год и выход бизнеса из периода ограничений</span>
+						</div>
+					</div>
+					<!-- /. video card-->
+				</div>			
+				<!-- /. swiper-slide-->
+
+            <div class="swiper-slide reportage-swiper-slide">
+					<div class="video-card">
+						<div class="video-thumb">
+							<img src="img/donagrares3.jpg" alt="donagrares" class="thumbnail-2">
+							
+						</div>
+						<!--/. video thumb-->
+						<h3 class="video-title">Донские аграрии приступ...</h3>
+						<div class="video-info">
+							<span class="video-counter">
+								<span class="video-date">12.03.2021</span>
+							</span>
+							<span class="video-text">Постковидный год и выход бизнеса из периода ограничений</span>
+						</div>
+					</div>
+					<!-- /. video card-->
+				</div>			
+				<!-- /. swiper-slide-->
+
+			</div>
+         <!--/. swiper-wrapper-->
+		</div>
+      <!-- /. swiper container-->
+
+   </div>
+
+
+   <h2 class="blocks-title">Выпуски новостей</h2>
+   
+   <div class="news-episodes-swiper">
+
+      <div class="news-episodes-button-prev swiper-buttons">
+         <svg class="icon" height="62px" width="40px">
+            <use xlink:href="img/icons.svg#left-button"></use>
+          </svg>
+      </div>
+      <div class="news-episodes-button-next swiper-buttons">
+         <svg class="icon" height="62px" width="40px">
+            <use xlink:href="img/icons.svg#right-button"></use>
+          </svg>
+      </div>
+     
+      <!-- Slider main container -->
+		<div class="swiper-container channel-slider-3">
+				<!-- Additional required wrapper -->
+			<div class="swiper-wrapper">
+				<!-- Slides -->
+				<div class="swiper-slide news-episodes-swiper-slide">
+					<div class="video-card">
+						<div class="video-thumb">
+							<img src="img/newsepisode.jpg" alt="news-episode" class="thumbnail-3">
+							
+						</div>
+						<!--/. video thumb-->
+						<h3 class="video-title">Новости в 20:00 от 04.03.2021</h3>
+					</div>
+					<!-- /. video card-->
+				</div>			
+				<!-- /. swiper-slide-->
+
+            <div class="swiper-slide news-episodes-swiper-slide">
+					<div class="video-card">
+						<div class="video-thumb">
+							<img src="img/newsepisode.jpg" alt="news-episode" class="thumbnail-3">
+							
+						</div>
+						<!--/. video thumb-->
+						<h3 class="video-title">Новости в 20:00 от 04.03.2021</h3>
+					</div>
+					<!-- /. video card-->
+				</div>			
+				<!-- /. swiper-slide-->
+			</div>
+         <!--/. swiper-wrapper-->
+		</div>
+      <!-- /. swiper container-->
+   </div>
+
+
+   <h2 class="blocks-title">Популярные телепрограммы</h2>
+   
+   <div class="popular-programms-swiper">
+
+      <div class="popular-programms-button-prev swiper-buttons">
+         <svg class="icon" height="62px" width="40px">
+            <use xlink:href="img/icons.svg#left-button"></use>
+          </svg>
+      </div>
+      <div class="popular-programms-button-next swiper-buttons">
+         <svg class="icon" height="62px" width="40px">
+            <use xlink:href="img/icons.svg#right-button"></use>
+          </svg>
+      </div>
+     
+      <!-- Slider main container -->
+		<div class="swiper-container channel-slider-4">
+				<!-- Additional required wrapper -->
+			<div class="swiper-wrapper">
+				<!-- Slides -->
+				<div class="swiper-slide popular-programms-swiper-slide">
+						<div class="video-thumb">
+							<img src="img/popular1.jpg" alt="popular1" class="thumbnail-4">
+							
+						</div>
+						<!--/. video thumb-->
+						<h3 class="popular-video-title">Третий возраст</h3>
+				</div>			
+				<!-- /. swiper-slide-->
+
+            <div class="swiper-slide popular-programms-swiper-slide">
+						<div class="video-thumb">
+							<img src="img/popular2.jpg" alt="popular2" class="thumbnail-4">
+							
+						</div>
+						<!--/. video thumb-->
+						<h3 class="popular-video-title">Спорт-на-Дону. Итоги 27.03.2021</h3>
+				</div>			
+				<!-- /. swiper-slide-->
+
+            <div class="swiper-slide popular-programms-swiper-slide">
+						<div class="video-thumb">
+							<img src="img/popular3.jpg" alt="popular3" class="thumbnail-4">
+							
+						</div>
+						<!--/. video thumb-->
+						<h3 class="popular-video-title">Подсмотрено в сети 26.03.2021</h3>
+				</div>			
+				<!-- /. swiper-slide-->
+
+			</div>
+         <!--/. swiper-wrapper-->
+		</div>
+      <!-- /. swiper container-->
+   </div>
+
+   </section>
+
+   
+   <aside class="sidebar">
+      <div class="sidebar-banner">
+         <img src="/img/irinakasarina.jpg" alt="irina-kasarina">
+         <div class="sidebar-banner-title">
+            <span>Программный текст</span>
+         </div>
+      </div>
+
+      <img class="sidebar-logo" src="/img/sidebarlogo.jpg" alt="sidebar-logo">
+
+      <div class="sidebar-news-container">
+         
+         
+         <div class="sidebar-news">
+            <a class="sidebar-news-link" href="#">
+               <h4 class="sidebar-news-title">Проишествия</h4>
+               <span class="sidebar-news-date">12.03.2021</span>
+               <p class="sidebar-news-text">В Ростове на Нахичевании 18-летний водитель устроил ДТП, пострадал пешеход</p>
+            </a>   
+            <span class="sidebar-icons-container">
+               <a class="sidebar-news-icons" href="#">
+                  <svg class="icon" width="24px" height="24px">
+                     <use xlink:href="img/icons.svg#photo-icon"></use>
+                  </svg>
+               <a class="sidebar-news-icons" href="#">
+                  <svg class="icon" width="24px" height="17px">
+                     <use xlink:href="img/icons.svg#video-icon"></use>
+                  </svg>
+               </a>
+            </span>
+         </div>
+         <div class="sidebar-news">
+            <a class="sidebar-news-link" href="#">
+               <h4 class="sidebar-news-title">Проишествия</h4>
+               <span class="sidebar-news-date">12.03.2021</span>
+               <p class="sidebar-news-text">В Ростове на Нахичевании 18-летний водитель устроил ДТП, пострадал пешеход</p>
+            </a>   
+            <span class="sidebar-icons-container">
+               <a class="sidebar-news-icons" href="#">
+                  <svg class="icon" width="24px" height="24px">
+                     <use xlink:href="img/icons.svg#photo-icon"></use>
+                  </svg>
+               <a class="sidebar-news-icons" href="#">
+                  <svg class="icon" width="24px" height="17px">
+                     <use xlink:href="img/icons.svg#video-icon"></use>
+                  </svg>
+               </a>
+            </span>
+         </div>
+         <div class="sidebar-news">
+            <a class="sidebar-news-link" href="#">
+               <h4 class="sidebar-news-title">Проишествия</h4>
+               <span class="sidebar-news-date">12.03.2021</span>
+               <p class="sidebar-news-text">В Ростове на Нахичевании 18-летний водитель устроил ДТП, пострадал пешеход</p>
+            </a>   
+            <span class="sidebar-icons-container">
+               <a class="sidebar-news-icons" href="#">
+                  <svg class="icon" width="24px" height="24px">
+                     <use xlink:href="img/icons.svg#photo-icon"></use>
+                  </svg>
+               <a class="sidebar-news-icons" href="#">
+                  <svg class="icon" width="24px" height="17px">
+                     <use xlink:href="img/icons.svg#video-icon"></use>
+                  </svg>
+               </a>
+            </span>
+         </div>
+         <div class="sidebar-news">
+            <a class="sidebar-news-link" href="#">
+               <h4 class="sidebar-news-title">Проишествия</h4>
+               <span class="sidebar-news-date">12.03.2021</span>
+               <p class="sidebar-news-text">В Ростове на Нахичевании 18-летний водитель устроил ДТП, пострадал пешеход</p>
+            </a>   
+            <span class="sidebar-icons-container">
+               <a class="sidebar-news-icons" href="#">
+                  <svg class="icon" width="24px" height="24px">
+                     <use xlink:href="img/icons.svg#photo-icon"></use>
+                  </svg>
+               <a class="sidebar-news-icons" href="#">
+                  <svg class="icon" width="24px" height="17px">
+                     <use xlink:href="img/icons.svg#video-icon"></use>
+                  </svg>
+               </a>
+            </span>
+         </div>
+         <div class="sidebar-news">
+            <a class="sidebar-news-link" href="#">
+               <h4 class="sidebar-news-title">Проишествия</h4>
+               <span class="sidebar-news-date">12.03.2021</span>
+               <p class="sidebar-news-text">В Ростове на Нахичевании 18-летний водитель устроил ДТП, пострадал пешеход</p>
+            </a>   
+            <span class="sidebar-icons-container">
+               <a class="sidebar-news-icons" href="#">
+                  <svg class="icon" width="24px" height="24px">
+                     <use xlink:href="img/icons.svg#photo-icon"></use>
+                  </svg>
+               <a class="sidebar-news-icons" href="#">
+                  <svg class="icon" width="24px" height="17px">
+                     <use xlink:href="img/icons.svg#video-icon"></use>
+                  </svg>
+               </a>
+            </span>
+         </div>
+         <div class="sidebar-news">
+            <a class="sidebar-news-link" href="#">
+               <h4 class="sidebar-news-title">Проишествия</h4>
+               <span class="sidebar-news-date">12.03.2021</span>
+               <p class="sidebar-news-text">В Ростове на Нахичевании 18-летний водитель устроил ДТП, пострадал пешеход</p>
+            </a>   
+            <span class="sidebar-icons-container">
+               <a class="sidebar-news-icons" href="#">
+                  <svg class="icon" width="24px" height="24px">
+                     <use xlink:href="img/icons.svg#photo-icon"></use>
+                  </svg>
+               <a class="sidebar-news-icons" href="#">
+                  <svg class="icon" width="24px" height="17px">
+                     <use xlink:href="img/icons.svg#video-icon"></use>
+                  </svg>
+               </a>
+            </span>
+         </div>
+         
+         
+      </div>
+      <!-- en of sidebar news container -->
+
+      <img class="sidebar-reclam" src="img/sidebarreclam.jpg" alt="reclam sport year">
+   </aside>
+</main>
+
+<div class="social-network-container">
+       <img class="social-network-container-bg" src="/img/socialnetworkbackground.png" alt="">
+       
+       <svg class="sn-bg-element1" width="175px" height="175px">
+         <use xlink:href="img/icons.svg#SN-bg-element"></use>
+       </svg>
+       <svg class="sn-bg-element2" width="92px" height="92px">
+         <use xlink:href="img/icons.svg#SN-bg-element"></use>
+       </svg>
+
+   <div class="social-network-container-info">
+     <h3 class="social-network-title">Мы в социальных сетях</h3>
+      <span class="social-network-text">Хотите получать еще больше полезной инфомации? Подписывайтесь на нас в соцсетях!</span>
+     
+     
+      <ul class="social-network-list">
+      <li>
+      <a class="social-network-container-links" href="">
+         <svg class="sn-icon" width="32px" height="32px">
+            <use xlink:href="img/icons.svg#facebook"></use>
+         </svg>
+      </a>
+   </li>
+   <li>
+      <a class="social-network-container-links" href="">
+         <svg class="sn-icon" width="34px" height="17px">
+            <use xlink:href="img/icons.svg#vk"></use>
+         </svg>
+      </a>
+   </li>
+   <li>
+      <a class="social-network-container-links" href="">
+         <svg class="sn-icon" width="26px" height="21px">
+            <use xlink:href="img/icons.svg#twitter"></use>
+         </svg>
+      </a>
+   </li>
+   <li>
+      <a class="social-network-container-links" href="">
+         <svg class="sn-icon" width="26.5px" height="26.5px">
+            <use xlink:href="img/icons.svg#instagramm"></use>
+         </svg>
+      </a>
+   </li>
+   <li>
+      <a class="social-network-container-links" href="">
+         <svg class="sn-icon" width="30px" height="30px">
+            <use xlink:href="img/icons.svg#ok"></use>
+         </svg>
+      </a>
+   </li>
+   <li>
+      <a class="social-network-container-links" href="">
+         <svg class="sn-icon" width="26px" height="27px">
+            <use xlink:href="img/icons.svg#youtube"></use>
+         </svg>
+      </a>
+      </ul>
+   </div>
+</div>
+
+
+</body>
+</html>
