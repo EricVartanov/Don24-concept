@@ -765,7 +765,7 @@ fill: #205DB2;
 }
 
 .for-bg-elements{
-    background: url(/img/bg-rombs.png);
+    background: url(../img/bg-rombs.png);
     background-repeat: no-repeat;
     background-position: bottom center;
 }
