@@ -83,6 +83,21 @@ const swiper4 = new Swiper('.channel-slider-4', {
   },
 });
 // END of popular programms slider 
+
+//TVprojects swiper
+const swiper5 = new Swiper('.channel-slider-5', {
+  // Optional parameters
+  loop: true,
+  slidesPerView: 4,
+  spaceBetween: 10,
+  
+  // Navigation arrows
+  navigation: {
+    nextEl: '.tvprojects-button-next',
+    prevEl: '.tvprojects-button-prev',
+  },
+});
+//en of tvprojects swiper
   
   
   if (document.documentElement.scrollWidth <= 640) {
@@ -90,6 +105,8 @@ const swiper4 = new Swiper('.channel-slider-4', {
     swiper2.destroy();
     swiper3.destroy();
     swiper4.destroy();
+    swiper5.destroy();
+
 
   };
 
