@@ -1,3 +1,11 @@
+
+//refresh-logo
+
+$('.main-logo').click(function() {
+       location.reload();
+});
+
+
 //Search area hide functions 
 
 const searchInput = $('.search-input');

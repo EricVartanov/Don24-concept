@@ -88,6 +88,7 @@ header{
 .main-logo{
     max-height: 66px;
     max-width: 156px;
+    cursor: pointer;
 }
 .age-censore{
     height: 35px;
@@ -282,6 +283,7 @@ header{
     text-transform: uppercase;
     padding-bottom: 5px;
 }
+
 /****live video block****/
 .live-block{
     max-width: 853px;
@@ -769,5 +771,138 @@ fill: #205DB2;
     background-repeat: no-repeat;
     background-position: bottom center;
 }
+
+.youtube-banner{
+    display: flex;
+    justify-content: center;
+    margin-top: 97px;
+}
 /******end of about tv channel****/
 
+/******Footer*****/
+.footer{
+    max-width: 1920px;
+    max-height: 416px;
+    background: #212121;
+    display: flex;
+    justify-content: center;
+}
+.footer-container{
+    width: 1140px;
+    display: flex;
+    padding-top: 3%;
+    justify-content: space-between;
+}
+
+.adress-block{
+    color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+}
+.contacts-block{
+    font-size: 13px;
+    line-height: 24px;
+    color: #fbfbfb;
+}
+.contacts-block span{
+    text-decoration-line: underline;
+    color: #E84748;
+}
+.contacts-block p{
+    margin-bottom: 30px;
+}
+
+
+
+.info-block{
+    font-size: 12px;
+    line-height: 18px;
+    color: #fff;
+    max-width: 210px;
+}
+
+
+.footer-social-network{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    color: #Fff;
+    text-align: left;
+    max-width: 183px;
+    position: relative;
+}
+.footer-social-network h4{
+    margin-bottom: 26px;
+}
+.footer-social-network-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.footer-social-network-links{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    display: flex;
+    background: rgba(255, 255, 255, 0.2);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.footer-social-network-links .icon{
+    fill: #fff;
+}
+
+.footer-social-network-links:hover{
+    opacity: 0.5;
+}
+.subscribe-area{
+    display: flex;
+    align-items: center;
+}
+.subscribe-input{
+    max-width: 144px;
+    height: 38px;
+    margin: 0;
+    background: #353535;
+    border: none;
+    padding-left: 10px;
+    color: #fff;
+}
+.subscribe-input:focus-visible{
+    border: none;
+}
+.subscribe-input::placeholder{
+    color: #767676;
+}
+.subscribe-button{
+    width: 38px;
+    height: 38px;
+    border: none;
+    cursor: pointer;
+    background: #E84748;
+    margin: 0;
+}
+
+.to-start{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    width: 41px;
+    height: 41px;
+    background: #2053AE;
+    padding: 15px;
+}
+.to-start img{
+    display: block;
+}
+
+
+
+/*****End of Footer***/
