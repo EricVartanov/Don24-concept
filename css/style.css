@@ -6,8 +6,8 @@
 body{
     margin: 0 auto;
     background: #E5E5E5;
-    max-width: 1920px;
     height: 100%;
+    width: 100%;
 }
 header{
     margin: 0 0 36px 0;
@@ -583,13 +583,16 @@ fill: #205DB2;
     justify-content: center;
     margin-bottom: 74px;
     height: 100%;
+    max-width: 1920px;
+
 }
 .social-network-container-bg{
-    max-width: 1920px;
-    height: 302;
+    display: flex;
     background: linear-gradient(to right, #2053AE 0%, #1EA6C9 100%);
     position: absolute;
     top: 0;
+    height: 100%;
+    width: 100%;
 }
 .sn-bg-element1{
     fill: #0071BC;
