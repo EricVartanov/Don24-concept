@@ -6,8 +6,8 @@
 body{
     margin: 0 auto;
     background: #E5E5E5;
+    max-width: 1920px;
     height: 100%;
-    width: 100%;
 }
 header{
     margin: 0 0 36px 0;
