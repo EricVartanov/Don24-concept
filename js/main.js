@@ -27,9 +27,15 @@ const swiper = new Swiper('.channel-slider', {
     slidesPerView: 1,
     spaceBetween: 20,
     breakpoints: {
+    
+      1150: {
+        slidesPerView: 1
   
-      
-      800: {
+      },
+      850: {
+        slidesPerView: 1
+      },
+      640: {
         slidesPerView: 1
       },
     },
@@ -83,7 +89,16 @@ const swiper4 = new Swiper('.channel-slider-4', {
   loop: true,
   slidesPerView: 3,
   spaceBetween: 10,
-  
+  breakpoints: {
+    
+    
+    820: {
+      slidesPerView: 3
+    },
+    640: {
+      slidesPerView: 2
+    },
+  },
   // Navigation arrows
   navigation: {
     nextEl: '.popular-programms-button-next',
@@ -96,8 +111,21 @@ const swiper4 = new Swiper('.channel-slider-4', {
 const swiper5 = new Swiper('.channel-slider-5', {
   // Optional parameters
   loop: true,
-  slidesPerView: 4,
+  slidesPerView: 1,
   spaceBetween: 10,
+  breakpoints: {
+    
+    1150: {
+      slidesPerView: 4
+
+    },
+    820: {
+      slidesPerView: 3
+    },
+    640: {
+      slidesPerView: 2
+    },
+  },
   
   // Navigation arrows
   navigation: {
@@ -108,7 +136,7 @@ const swiper5 = new Swiper('.channel-slider-5', {
 //en of tvprojects swiper
   
   
-  if (document.documentElement.scrollWidth <= 640) {
+  if (document.documentElement.scrollWidth <= 1000) {
     swiper.destroy();
     swiper2.destroy();
     swiper3.destroy();
