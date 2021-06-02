@@ -938,7 +938,7 @@ fill: #205DB2;
 
 @media (max-width: 1150px) {
     .mobile-adaptive-hide{
-        display: none;
+        visibility: hidden;
     }
     
     .img-adaptive{
