@@ -136,15 +136,15 @@ const swiper5 = new Swiper('.channel-slider-5', {
 //en of tvprojects swiper
   
   
-  if (document.documentElement.scrollWidth <= 1000) {
-    swiper.destroy();
-    swiper2.destroy();
-    swiper3.destroy();
-    swiper4.destroy();
-    swiper5.destroy();
+  // if (document.documentElement.scrollWidth <= 1000) {
+  //   swiper.destroy();
+  //   swiper2.destroy();
+  //   swiper3.destroy();
+  //   swiper4.destroy();
+  //   swiper5.destroy();
 
 
-  };
+  // };
 
 // end of banner slider 
 
