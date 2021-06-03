@@ -24,7 +24,7 @@ searchButton.mouseover(function(){
 const swiper = new Swiper('.channel-slider', {
     // Optional parameters
     loop: true,
-    slidesPerView: 0,
+    slidesPerView: 1,
     spaceBetween: 20,
     breakpoints: {
     
@@ -57,7 +57,7 @@ const swiper = new Swiper('.channel-slider', {
   const swiper2 = new Swiper('.channel-slider-2', {
     // Optional parameters
     loop: true,
-    slidesPerView: 1,
+    slidesPerView: 0,
     spaceBetween: 10,
     breakpoints: {
     
@@ -78,7 +78,7 @@ const swiper = new Swiper('.channel-slider', {
 const swiper3 = new Swiper('.channel-slider-3', {
   // Optional parameters
   loop: true,
-  slidesPerView: 1,
+  slidesPerView: 0,
   spaceBetween: 10,
   breakpoints: {
     
@@ -99,7 +99,7 @@ const swiper3 = new Swiper('.channel-slider-3', {
 const swiper4 = new Swiper('.channel-slider-4', {
   // Optional parameters
   loop: true,
-  slidesPerView: 1,
+  slidesPerView: 0,
   spaceBetween: 10,
   breakpoints: {
     
@@ -121,7 +121,7 @@ const swiper4 = new Swiper('.channel-slider-4', {
 const swiper5 = new Swiper('.channel-slider-5', {
   // Optional parameters
   loop: true,
-  slidesPerView: 1,
+  slidesPerView: 0,
   spaceBetween: 10,
   breakpoints: {
     
