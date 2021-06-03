@@ -3,6 +3,9 @@
     /* font-family: 'Roboto Mono', monospace; */
     box-sizing: border-box;
 }
+html, body{
+    overflow-x: hidden;
+}
 body{
     margin: 0 auto;
     background: #E5E5E5;
