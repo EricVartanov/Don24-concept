@@ -1063,8 +1063,8 @@ fill: #205DB2;
         justify-content: center;
     }
     .thumbnail{
-        width: 100%;
-        height: auto;
+        width: auto;
+        height: 72%;
     }
     .banner-info{
         padding: 10px;
