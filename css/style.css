@@ -987,8 +987,11 @@ fill: #205DB2;
     }
     
     .main-content{
-        max-width: 853px;
+        width: 100%;
         padding-bottom: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+
     }
     .main-news{
         max-width: 100%;
@@ -1033,7 +1036,7 @@ fill: #205DB2;
         padding: 0 15px 0 15px;
     }
     .main-content{
-        max-width: 750px;
+        width: 100%;
         padding-bottom: 100px;
     }
     .channel-persons, .about-tvchannel, .footer-container{
