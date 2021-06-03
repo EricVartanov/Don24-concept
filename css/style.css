@@ -203,7 +203,125 @@ header{
     background: #E84748;
 }
 
+/*********mobile menu******/
+.menu{
+    margin-right: 15px;
+}
+.mobile-logo-container{
+    margin: 0 auto;
+    padding: 11px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #fff;
+}
+.age-censore{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid #E3E3E3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+.menu-triger{
+    
+}
 
+
+.menu-popup{
+    position: absolute;
+    left: 0;
+    top: 10%;
+    background: #205DB2;
+    z-index: 15;
+    width: 100%;
+
+}
+.main-nav-list-mobile{
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.main-nav-list-mobile li{
+    padding:0 10px 0 10px;
+
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(218, 218, 218, 0.2);
+    background: #205DB2;
+
+}
+.main-nav-list-mobile li:hover{
+    cursor: pointer;
+    background: #497ABE;
+}
+.mobile-menu-right{
+    display: block;
+    margin-right: 15px;
+}
+.mobile-main-nav-links{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    border-bottom: solid 4px transparent;
+    padding-top: 4px;
+    height: 54px;
+}
+
+.main-nav-list-mobile .search-area{
+    padding-top: 10px;
+}
+
+.menu-second-list{
+    width: 100%;
+    padding: 0;
+}
+.menu-second-list li{
+    border-bottom: 1px solid rgba(218, 218, 218, 0.2);
+    padding: 0;
+
+}
+.mobile-search-area{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.mobile-search-button{
+    width: 36px;
+    height: 36px;
+    border: none;
+    cursor: pointer;
+    background: #E84748;
+}
+.mobile-search-input{
+    padding-left: 20px;
+    margin: 0;
+    height: 36px;
+    width: 100%;
+}
+
+/*******end of mobile menu*****/
 
 
 /****main Content***/ 
@@ -599,6 +717,7 @@ fill: #205DB2;
     display: block;
     background-image: url(../img/socialnetworkbackground.png);
     width: 100%;
+    background-size: cover;
 }
 .sn-bg-element1{
     fill: #0071BC;
@@ -1032,7 +1151,7 @@ fill: #205DB2;
 }
 
 @media (max-width: 770px) {
-    .main-content, .social-network-container, .about-channel, .footer-container{
+    .main-content, .about-channel, .footer-container, .about-tvchannel{
         padding: 0 15px 0 15px;
     }
     .main-content{
@@ -1043,10 +1162,24 @@ fill: #205DB2;
         width: 100%;
     }
     .channel-persons{
-        justify-content: center;
+        justify-content: space-between;
     }
     .person-card{
-        margin: 0 8px 8px 8px;
+        width: 48%;
+        height: auto;
+        text-align: left;
+    }
+    .person-name{
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .person-post{
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .person-card img{
+        width: 100%;
+        height: auto;
     }
     .footer-social-network-list{
         flex-wrap: wrap;
@@ -1054,7 +1187,7 @@ fill: #205DB2;
     .subscribe-area, .subscribe-input{
         width: 100%;
     }
-    .buttons-off, .contacts-block{
+    .buttons-off, .contacts-block, .sn-bg-element1, .sn-bg-element2{
         display: none;
     }
     .swiper-off{
@@ -1063,8 +1196,8 @@ fill: #205DB2;
         justify-content: center;
     }
     .thumbnail{
-        width: auto;
-        height: 72%;
+        width: 160%;
+        height: 100%;
     }
     .banner-info{
         padding: 10px;
@@ -1083,14 +1216,29 @@ fill: #205DB2;
     .about-channel, .footer-container{
         flex-direction: column;
     }
-    
+    .left-footer{
+        width: auto;
+    }
     .right-footer{
         padding: 0;
+        width: 70%;
     }
     .subscribe-block{
         display: none;
     }
     .mobile-subscribe-block{
         display: block;
+    }
+    .social-network-list{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+    }
+    .social-network-container-links{
+        margin: 10px;
+    }
+    .programm-slider{
+        margin-bottom: 65px;
     }
 }

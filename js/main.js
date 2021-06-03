@@ -1,3 +1,32 @@
+//mobile menu
+
+const secondMenu = $('.menu-second-list').slideToggle(1000)
+const menuLinks = $('.mobile-main-nav-links')
+const menuArrow = $('.mobile-menu-right')
+const mobileMenuOn = $('.mobile-menu-open')
+const mobileMenu = $('.menu-popup').hide()
+const mobileMenuoff = $('.mobile-menu-close').hide()
+
+mobileMenuOn.click(function() {
+      mobileMenuoff.show()
+  mobileMenu.slideToggle(1000)
+    mobileMenuOn.hide()
+})
+mobileMenuoff.click(function() {
+      mobileMenuoff.hide()
+  mobileMenu.slideToggle(1000)
+
+      mobileMenuOn.show()
+})
+
+secondMenu.parent().click(function() {
+  secondMenu.slideToggle(1000)
+});
+
+// menuLinks.click(function() {
+//   $(this).children().menuArrow.attr('src', 'img/mobile-menu-down.png')
+// })
+
 
 //refresh-logo
 
