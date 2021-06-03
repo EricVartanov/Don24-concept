@@ -24,7 +24,7 @@ searchButton.mouseover(function(){
 const swiper = new Swiper('.channel-slider', {
     // Optional parameters
     loop: true,
-    slidesPerView: 1,
+    slidesPerView: 0,
     spaceBetween: 20,
     breakpoints: {
     
@@ -35,7 +35,7 @@ const swiper = new Swiper('.channel-slider', {
       850: {
         slidesPerView: 1
       },
-      640: {
+      770: {
         slidesPerView: 1
       },
     },
@@ -57,9 +57,15 @@ const swiper = new Swiper('.channel-slider', {
   const swiper2 = new Swiper('.channel-slider-2', {
     // Optional parameters
     loop: true,
-    slidesPerView: 3,
+    slidesPerView: 1,
     spaceBetween: 10,
+    breakpoints: {
     
+      770: {
+        slidesPerView: 3
+  
+      }
+    },
     // Navigation arrows
     navigation: {
       nextEl: '.reportage-button-next',
@@ -72,9 +78,15 @@ const swiper = new Swiper('.channel-slider', {
 const swiper3 = new Swiper('.channel-slider-3', {
   // Optional parameters
   loop: true,
-  slidesPerView: 2,
+  slidesPerView: 1,
   spaceBetween: 10,
-  
+  breakpoints: {
+    
+    770: {
+      slidesPerView: 2
+
+    }
+  },
   // Navigation arrows
   navigation: {
     nextEl: '.news-episodes-button-next',
@@ -87,17 +99,15 @@ const swiper3 = new Swiper('.channel-slider-3', {
 const swiper4 = new Swiper('.channel-slider-4', {
   // Optional parameters
   loop: true,
-  slidesPerView: 3,
+  slidesPerView: 1,
   spaceBetween: 10,
   breakpoints: {
     
     
-    820: {
+    770: {
       slidesPerView: 3
-    },
-    640: {
-      slidesPerView: 2
-    },
+
+    }
   },
   // Navigation arrows
   navigation: {
@@ -122,7 +132,7 @@ const swiper5 = new Swiper('.channel-slider-5', {
     820: {
       slidesPerView: 3
     },
-    640: {
+    770: {
       slidesPerView: 2
     },
   },
@@ -136,7 +146,8 @@ const swiper5 = new Swiper('.channel-slider-5', {
 //en of tvprojects swiper
   
   
-  if (document.documentElement.scrollWidth <= 770) {
+  if ($(window).width() <= 770) {
+    
     swiper2.destroy();
     swiper3.destroy();
     swiper4.destroy();
