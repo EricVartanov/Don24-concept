@@ -285,6 +285,7 @@ header{
 
 /***end of banner slider****/
 .blocks-title{
+    color: #313131;
     display: inline-block;
     margin: 40px 0 30px 0;
     font-weight: bold;
@@ -293,6 +294,12 @@ header{
     border-bottom: #E84748 1px solid;
     text-transform: uppercase;
     padding-bottom: 5px;
+    text-decoration: none;
+}
+.blocks-title:hover{
+   color: #205DB2;
+   border-bottom: #205DB2 1px solid;
+   transition: 2s;
 }
 
 /****live video block****/
@@ -379,6 +386,7 @@ cursor: pointer;
     padding: 23px;
     width: auto;
     cursor: pointer;
+    text-align: left;
 }
 .video-card:hover{
     box-shadow: 0px 0px 15px rgba(252, 105, 105, 0.2);
@@ -389,7 +397,7 @@ cursor: pointer;
 }
 .thumbnail-2{
 	width: 100%;
-	height: 131px;
+	height: auto;
 }
 
 .video-title{
@@ -749,6 +757,7 @@ fill: #205DB2;
     font-size: 16px;
     line-height: 24px;
     color: #fff;
+    text-align: left;
 }
 .person-post{
     font-size: 14px;
@@ -769,15 +778,18 @@ fill: #205DB2;
 .left-side{
     flex: 2;
     margin-right: 10%;
+    text-align: left;
 }
 .left-side p{
     font-size: 16px;
     line-height: 24px;
+    
 }
 .right-side{
     flex: 1;
     display: flex;
     flex-direction: column;
+    text-align: left;
 }
 
 .right-side p{
@@ -799,7 +811,9 @@ fill: #205DB2;
 .youtube-banner{
     display: flex;
     justify-content: center;
-    margin-top: 97px;
+    padding-top: 97px;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 .youtube-banner img{
@@ -810,7 +824,7 @@ fill: #205DB2;
 /******Footer*****/
 .footer{
     max-width: 1920px;
-    max-height: 416px;
+    min-height: 416px;
     background: #212121;
     display: flex;
     justify-content: center;
@@ -820,8 +834,23 @@ fill: #205DB2;
     display: flex;
     padding-top: 3%;
     justify-content: space-between;
+    position: relative;
 }
-
+.left-footer{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 60px;
+}
+.right-footer{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 60px;
+    position: relative;
+}
 .adress-block{
     color: #fff;
     font-size: 12px;
@@ -857,8 +886,10 @@ fill: #205DB2;
     color: #Fff;
     text-align: left;
     max-width: 183px;
-    position: relative;
 }
+
+
+
 .footer-social-network h4{
     margin-bottom: 26px;
 }
@@ -881,6 +912,7 @@ fill: #205DB2;
     justify-content: center;
     align-items: center;
     margin-bottom: 15px;
+    margin-right: 10px;
 }
 .footer-social-network-links .icon{
     fill: #fff;
@@ -894,7 +926,7 @@ fill: #205DB2;
     align-items: center;
 }
 .subscribe-input{
-    max-width: 144px;
+    width: 144px;
     height: 38px;
     margin: 0;
     background: #353535;
@@ -941,6 +973,9 @@ fill: #205DB2;
 @media (max-width: 1150px) {
     .mobile-adaptive-hide{
         visibility: hidden;
+        padding: 0;
+        margin: 0;
+        height: 0;
     }
     
     .img-adaptive{
@@ -952,7 +987,7 @@ fill: #205DB2;
     }
     
     .main-content{
-        width: 853px;
+        max-width: 853px;
         padding-bottom: 100px;
     }
     .main-news{
@@ -982,20 +1017,77 @@ fill: #205DB2;
         width: auto;
         height: 100%;
     }
+    .left-footer, .right-footer{
+        flex-wrap: wrap;
+    }
+    .footer-social-network-list{
+        flex-wrap: nowrap;
+    }
+    .subscribe-area, .subscribe-input{
+        width: 335px;
+    }
 }
 
-@media (max-width: 890px) {
+@media (max-width: 770px) {
+    .main-content, .social-network-container, .about-channel, .footer-container{
+        padding: 0 15px 0 15px;
+    }
     .main-content{
-        width: 750px;
+        max-width: 750px;
         padding-bottom: 100px;
     }
     .channel-persons, .about-tvchannel, .footer-container{
-        width: 750px;
+        width: 100%;
     }
     .channel-persons{
         justify-content: center;
     }
     .person-card{
         margin: 0 8px 8px 8px;
+    }
+    .footer-social-network-list{
+        flex-wrap: wrap;
+    }
+    .subscribe-area, .subscribe-input{
+        width: 100%;
+    }
+    .buttons-off, .contacts-block{
+        display: none;
+    }
+    .swiper-off{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .thumbnail{
+        width: 100%;
+        height: auto;
+    }
+    .banner-info{
+        padding: 10px;
+        height: auto;
+    }
+    .main-news, .about-tvchannel{
+       text-align: center;
+    }
+    .about-tvchannel{
+        width: 100%;
+    }
+    .blocks-title{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .about-channel, .footer-container{
+        flex-direction: column;
+    }
+    
+    .right-footer{
+        padding: 0;
+    }
+    .subscribe-block{
+        display: none;
+    }
+    .mobile-subscribe-block{
+        display: block;
     }
 }
