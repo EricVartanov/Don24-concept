@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/li-scroller.css" media="screen" /> 
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   
+   <title>Дон24</title>
+</head>
+<body>
+<header class="header mobile-adaptive-hide">
+<div class="dynamic-string">
+   <ul id="ticker1">
+      <li><span><img class="string-logo" src="img/don24logostring.png" alt="string-logo"><p>Более 250 тысяч за месяц: какие нарушения чаще всего допускают ростовские водители</p></span></li>
+      <li><span><img class="string-logo" src="img/don24logostring.png" alt="string-logo"><p>Держитесь подальше: соцсети дали совет желающим переехать в Ростов.</p></span></li>
+      <li><span> <img class="string-logo" src="img/don24logostring.png" alt="string-logo"><p>В Ростове на 73-м году жизни умер профессор ЮРИУ РАНХиГС Сергей Воронцов. Жители Таганрога жестко осудили девушку, которая кормит бездомных собак.</p></span></li>
+   </ul>
+</div>
+
+<nav class="nav-info">
+   <ul class="nav-info-list">
+      <li><a class="nav-info-links" href="#">Газета «Молот»</a></li>
+      <li><a class="nav-info-links" href="#">Радио «ФМ-Н»</a></li>
+      <li><a class="nav-info-links" href="#">Телеканал «Дон24»</a></li>
+      <li><a class="nav-info-links" href="#">ИА «Дон24»</a></li>
+      <li><a class="nav-info-links" href="#">Пресс-Центр «Дон-Медиа»</a></li>
+      <li><a class="nav-info-links" href="#">Реклама </a></li>
+      <li><a class="nav-info-links" href="#">Продюсерский центр</a></li>
+      <li><a class="nav-info-links" href="#">Версия для слабовидящих</a></li>
+   </ul>
+</nav>
+<div class="logo-container">
+   <div class="main-logo-block" name="top"><img class= "main-logo " src="img/don24mainlogo.png" alt="logo-don24">
+   <span class="age-censore"><p>12+</p></span></div>
+   <img class="radio-banner img-adaptive" src="img/banner.png" alt="radio-logo">
+   <ul class="social-network-list">
+      <li>
+         <a class="social-network-links" href="">
+            <svg class="icon" width="17.34px" height="17.24px">
+               <use xlink:href="img/icons.svg#facebook"></use>
+            </svg>
+         </a>
+      </li>
+      <li>
+         <a class="social-network-links" href="">
+            <svg class="icon" width="18px" height="9px">
+               <use xlink:href="img/icons.svg#vk"></use>
+            </svg>
+         </a>
+      </li>
+      <li>
+         <a class="social-network-links" href="">
+            <svg class="icon" width="14px" height="11px">
+               <use xlink:href="img/icons.svg#twitter"></use>
+            </svg>
+         </a>
+      </li>
+      <li>
+         <a class="social-network-links" href="">
+            <svg class="icon" width="14.19px" height="14.19px">
+               <use xlink:href="img/icons.svg#instagramm"></use>
+            </svg>
+         </a>
+      </li>
+      <li>
+         <a class="social-network-links" href="">
+            <svg class="icon" width="16px" height="16px">
+               <use xlink:href="img/icons.svg#ok"></use>
+            </svg>
+         </a>
+      </li>
+      <li>
+         <a class="social-network-links" href="">
+            <svg class="icon" width="14px" height="14px">
+               <use xlink:href="img/icons.svg#youtube"></use>
+            </svg>
+         </a>
+      </li>
+   </ul>
+</div>
+<nav class="main-nav">
+   <ul class="main-nav-list">
+      <li class="fixed-nav-logo"><a href="#"><img src="img/fixed-nav-logo.png" alt="fixed-nav-logo"></a></li>
+      <li><a class="main-nav-links" href="#">Главная</a></li>
+      <li><a class="main-nav-links" href="#">Прямой эфир</a></li>
+      <li><a class="main-nav-links" href="#">Новости</a></li>
+      <li><a class="main-nav-links" href="#">Программы</a></li>
+      <li><a class="main-nav-links" href="#">Команда</a></li>
+      <li><a class="main-nav-links" href="#">О телеканале</a></li>
+      <li> 
+         
+         <span class="search-area">
+            <span class="fake-search-input"></span>
+            <input type="text" class="search-input" name="search" placeholder="Поиск">
+               <button class="search-button" type="submit">
+                     <img src="img/search.png" alt="search">
+               </button>
+         </span>
+      </li>
+   </ul>
+</nav>
+</header>
+<header class="mobile-header">
+   <div class="mobile-logo-container">
+      <div class="main-logo-block" name="top"><img class= "main-logo " src="img/don24mainlogo.png" alt="logo-don24">
+      <span class="age-censore"><p>12+</p></span></div>
+      <div class="menu">
+         <a class="menu-triger" href="#"><img src="img/mobile-menu-open.png" alt="mobile-menu-open" class="mobile-menu-open"><img src="img/mobile-menu-close.png" alt="mobile-menu-close" class="mobile-menu-close"></a>
+         <div class="menu-popup">
+            <ul class="main-nav-list-mobile">
+               <li>
+                  <a class="mobile-main-nav-links" href="#">Главная</a>
+               </li>
+               <li>
+                  <a class="mobile-main-nav-links" href="#">Прямой эфир</a>
+                  <img src="img/mobile-menu-right.png"   alt="mobile-menu-right" class="mobile-menu-right" width="6px" height="11px">
+               </li>
+               <li>
+                  <a class="mobile-main-nav-links" href="#">Новости</a>
+                  <img src="img/mobile-menu-right.png"  alt="mobile-menu-right" class="mobile-menu-right" width="6px" height="11px">
+                  <ul class="menu-second-list">
+                     <li>
+                        <a class="mobile-main-nav-links" href="#">Новости</a>
+                        <img src="img/mobile-menu-right.png"  alt="mobile-menu-right" class="mobile-menu-right" width="6px" height="11px">
+                     </li>
+                     <li>
+                        <a class="mobile-main-nav-links" href="#">О телеканале</a>
+                        <img src="img/mobile-menu-right.png"  alt="mobile-menu-right" class="mobile-menu-right" width="6px" height="11px">
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  <a class="mobile-main-nav-links" href="#">Программы</a>
+                  <img src="img/mobile-menu-right.png"  alt="mobile-menu-right" class="mobile-menu-right" width="6px" height="11px">
+               </li>
+               <li>
+                  <a class="mobile-main-nav-links" href="#">Команда</a>
+                  <img src="img/mobile-menu-right.png"  alt="mobile-menu-right" class="mobile-menu-right" width="6px" height="11px">
+               </li>
+               <li>
+                  <a class="mobile-main-nav-links" href="#">О телеканале</a>
+                  <img src="img/mobile-menu-right.png"  alt="mobile-menu-right" class="mobile-menu-right" width="6px" height="11px">
+               </li>
+               <li> 
+                  <span class="mobile-search-area">
+                     <input type="text" class="mobile-search-input" name="search" placeholder="Поиск">
+                        <button class="mobile-search-button" type="submit">
+                              <img src="img/search.png" alt="search">
+                        </button>
+                  </span>
+               </li>
+            </ul>						
+         </div>
+      </div>
+   </div>
+</header>
+
+
+<main class="main-content">
+   <section class="main-news">
+      
+      
+      <div class="programm-slider">
+         
+         <div class="banner-button-prev swiper-buttons ">
+            <svg class="icon" height="56px" width="36px">
+               <use xlink:href="img/icons.svg#left-button"></use>
+             </svg>
+         </div>
+         <div class="banner-button-next swiper-buttons">
+            <svg class="icon" height="56px" width="36px">
+               <use xlink:href="img/icons.svg#right-button"></use>
+             </svg>
+         </div>
+        
+
+         <div class="swiper-container channel-slider">
+            <div class="swiper-wrapper ">
+               <!-- Slides -->
+               
+
+               <div class="swiper-slide banner-swiper-slide">
+                  <div class="banner-info">
+                     <span>Ежедневно в 13.00 15.00 18.00</span>
+                  </div>
+                  <img src="img/newsbanner.png" alt="programm-banner" class="thumbnail">
+               </div>
+               <div class="swiper-slide banner-swiper-slide">
+                  <div class="banner-info">
+                     <span>Ежедневно в 13.00 15.00 18.00</span>
+                  </div>
+                  <img src="img/newsbanner.png" alt="programm-banner" class="thumbnail">
+               </div>
+               <div class="swiper-slide banner-swiper-slide">
+                  <div class="banner-info">
+                     <span>Ежедневно в 13.00 15.00 18.00</span>
+                  </div>
+                  <img src="img/newsbanner.png" alt="programm-banner" class="thumbnail">
+               </div>
+               <div class="swiper-slide banner-swiper-slide">
+                  <div class="banner-info">
+                     <span>Ежедневно в 13.00 15.00 18.00</span>
+                  </div>
+                  <img src="img/newsbanner.png" alt="programm-banner" class="thumbnail">
+               </div>
+            </div>
+         </div>
+         
+
+         <div class="swiper-pagination">
+            <div class="bullets">
+            </div>
+         </div>
+
+      </div>
+
+
+      <a href="#" class="blocks-title">Сейчас в эфире</a>
+   <section class="live-block">
+      
+
+      <div class="live-video">
+         <img src="img/livevideothumbnail.png" alt="thumbnail" class="live-video-img">
+      </div>
+      <div class="live-programm">
+         <div class="live-programm-titles">
+            <span class="live-programm-time">14:15
+               <img class="live-marker" src="img/live.png" alt="live marker">
+            </span>
+            <span class="live-programm-name">Живые символы планеты</span>
+         </div>
+         <div class="live-programm-titles">
+            <span class="live-programm-time">15:00</span>
+            <span class="live-programm-name">Новости</span>
+         </div>
+         <div class="live-programm-titles">
+            <span class="live-programm-time">15:45</span>
+            <span class="live-programm-name">Третий возраст</span>
+         </div>
+         <div class="live-programm-titles" id="mobile-all-programms">
+            <span class="mobile-live-all-programm">
+               <svg class="-icon" height="17px" width="9px" >
+                  <use xlink:href="img/icons.svg#Subtract"></use>
+               </svg>
+            </span>
+            <span class="live-programm-name">Вся программа</span>
+         </div>
+         <div class="live-programm-titles">
+            <span class="live-programm-time">16:00</span>
+            <span class="live-programm-name">Мультфильмы</span>
+         </div>
+         <div class="live-programm-titles">
+            <span class="live-programm-time">16:00</span>
+            <span class="live-programm-name">Мультфильмы</span>
+         </div>
+         <div class="live-programm-titles">
+            <span class="live-programm-time">16:00</span>
+            <span class="live-programm-name">Мультфильмы</span>
+         </div>
+         <div class="live-programm-titles">
+            <span class="live-programm-time">16:00</span>
+            <span class="live-programm-name">Мультфильмы</span>
+         </div>
+      </div>
+   
+   </section>
+
+
+   <a href="#" class="blocks-title">Сюжеты и репортажи</a>
+   
+   <div class="reportage-swiper">
+
+      <div class="reportage-button-prev swiper-buttons buttons-off">
+         <svg class="icon" height="56px" width="36px">
+            <use xlink:href="img/icons.svg#left-button"></use>
+          </svg>
+      </div>
+      <div class="reportage-button-next swiper-buttons buttons-off">
+         <svg class="icon" height="56px" width="36px">
+            <use xlink:href="img/icons.svg#right-button"></use>
+          </svg>
+      </div>
+     
+      <!-- Slider main container -->
+		<div class="swiper-container channel-slider-2">
+				<!-- Additional required wrapper -->
+			<div class="swiper-wrapper swiper-off">
+				<!-- Slides -->
+				<div class="swiper-slide reportage-swiper-slide">
+					<div class="video-card">
+						<div class="video-thumb">
+							<img src="img/donagrares.jpg" alt="donagrares" class="thumbnail-2">
+							
+						</div>
+						<!--/. video thumb-->
+						<h3 class="video-title">Донские аграрии приступ...</h3>
+						<div class="video-info">
+							<span class="video-counter">
+								<span class="video-date">12.03.2021</span>
+							</span>
+							<span class="video-text">Постковидный год и выход бизнеса из периода ограничений</span>
+						</div>
+					</div>
+					<!-- /. video card-->
+				</div>			
+				<!-- /. swiper-slide-->
+
+            <div class="swiper-slide reportage-swiper-slide">
+					<div class="video-card">
+						<div class="video-thumb">
+							<img src="img/donagrares2.jpg" alt="donagrares" class="thumbnail-2">
+							
+						</div>
+						<!--/. video thumb-->
+						<h3 class="video-title">Донские аграрии приступ...</h3>
+						<div class="video-info">
+							<span class="video-counter">
+								<span class="video-date">12.03.2021</span>
+							</span>
+							<span class="video-text">Постковидный год и выход бизнеса из периода ограничений</span>
+						</div>
+					</div>
+					<!-- /. video card-->
+				</div>			
+				<!-- /. swiper-slide-->
+
+            <div class="swiper-slide reportage-swiper-slide">
+					<div class="video-card">
+						<div class="video-thumb">
+							<img src="img/donagrares3.jpg" alt="donagrares" class="thumbnail-2">
+							
+						</div>
+						<!--/. video thumb-->
+						<h3 class="video-title">Донские аграрии приступ...</h3>
+						<div class="video-info">
+							<span class="video-counter">
+								<span class="video-date">12.03.2021</span>
+							</span>
+							<span class="video-text">Постковидный год и выход бизнеса из периода ограничений</span>
+						</div>
+					</div>
+					<!-- /. video card-->
+				</div>			
+				<!-- /. swiper-slide-->
+
+			</div>
+         <!--/. swiper-wrapper-->
+		</div>
+      <!-- /. swiper container-->
+
+   </div>
+
+
+   <a href="#" class="blocks-title">Выпуски новостей</a>
+   
+   <div class="news-episodes-swiper">
+
+      <div class="news-episodes-button-prev swiper-buttons buttons-off">
+         <svg class="icon" height="62px" width="40px">
+            <use xlink:href="img/icons.svg#left-button"></use>
+          </svg>
+      </div>
+      <div class="news-episodes-button-next swiper-buttons buttons-off">
+         <svg class="icon" height="62px" width="40px">
+            <use xlink:href="img/icons.svg#right-button"></use>
+          </svg>
+      </div>
+     
+      <!-- Slider main container -->
+		<div class="swiper-container channel-slider-3">
+				<!-- Additional required wrapper -->
+			<div class="swiper-wrapper swiper-off">
+				<!-- Slides -->
+				<div class="swiper-slide news-episodes-swiper-slide">
+					<div class="video-card">
+						<div class="video-thumb">
+							<img src="img/newsepisode.jpg" alt="news-episode" class="thumbnail-3">
+							
+						</div>
+						<!--/. video thumb-->
+						<h3 class="video-title">Новости в 20:00 от 04.03.2021</h3>
+					</div>
+					<!-- /. video card-->
+				</div>			
+				<!-- /. swiper-slide-->
+
+            <div class="swiper-slide news-episodes-swiper-slide">
+					<div class="video-card">
+						<div class="video-thumb">
+							<img src="img/newsepisode.jpg" alt="news-episode" class="thumbnail-3">
+							
+						</div>
+						<!--/. video thumb-->
+						<h3 class="video-title">Новости в 20:00 от 04.03.2021</h3>
+					</div>
+					<!-- /. video card-->
+				</div>			
+				<!-- /. swiper-slide-->
+			</div>
+         <!--/. swiper-wrapper-->
+		</div>
+      <!-- /. swiper container-->
+   </div>
+
+
+   <a href="#" class="blocks-title">Популярные телепрограммы</a>
+   
+   <div class="popular-programms-swiper">
+
+      <div class="popular-programms-button-prev swiper-buttons buttons-off">
+         <svg class="icon" height="62px" width="40px">
+            <use xlink:href="img/icons.svg#left-button"></use>
+          </svg>
+      </div>
+      <div class="popular-programms-button-next swiper-buttons buttons-off">
+         <svg class="icon" height="62px" width="40px">
+            <use xlink:href="img/icons.svg#right-button"></use>
+          </svg>
+      </div>
+     
+      <!-- Slider main container -->
+		<div class="swiper-container channel-slider-4">
+				<!-- Additional required wrapper -->
+			<div class="swiper-wrapper swiper-off">
+				<!-- Slides -->
+				<div class="swiper-slide popular-programms-swiper-slide">
+						<div class="video-thumb">
+							<img src="img/popular1.jpg" alt="popular1" class="thumbnail-4">
+							
+						</div>
+						<!--/. video thumb-->
+						<h3 class="popular-video-title">Третий возраст</h3>
+				</div>			
+				<!-- /. swiper-slide-->
+
+            <div class="swiper-slide popular-programms-swiper-slide">
+						<div class="video-thumb">
+							<img src="img/popular2.jpg" alt="popular2" class="thumbnail-4">
+							
+						</div>
+						<!--/. video thumb-->
+						<h3 class="popular-video-title">Спорт-на-Дону. Итоги 27.03.2021</h3>
+				</div>			
+				<!-- /. swiper-slide-->
+
+            <div class="swiper-slide popular-programms-swiper-slide">
+						<div class="video-thumb">
+							<img src="img/popular3.jpg" alt="popular3" class="thumbnail-4">
+							
+						</div>
+						<!--/. video thumb-->
+						<h3 class="popular-video-title">Подсмотрено в сети 26.03.2021</h3>
+				</div>			
+				<!-- /. swiper-slide-->
+
+			</div>
+         <!--/. swiper-wrapper-->
+		</div>
+      <!-- /. swiper container-->
+   </div>
+
+   </section>
+
+   
+   <aside class="sidebar mobile-adaptive-hide">
+      <div class="sidebar-banner">
+         <img src="img/irinakasarina.jpg" alt="irina-kasarina">
+         <div class="sidebar-banner-title">
+            <span>Программный текст</span>
+         </div>
+      </div>
+
+      <img class="sidebar-logo" src="img/sidebarlogo.jpg" alt="sidebar-logo">
+
+      <div class="sidebar-news-container">
+         
+         
+         <div class="sidebar-news">
+            <a class="sidebar-news-link" href="#">
+               <h4 class="sidebar-news-title">Проишествия</h4>
+               <span class="sidebar-news-date">12.03.2021</span>
+               <p class="sidebar-news-text">В Ростове на Нахичевании 18-летний водитель устроил ДТП, пострадал пешеход</p>
+            </a>   
+            <span class="sidebar-icons-container">
+               <a class="sidebar-news-icons" href="#">
+                  <svg class="icon" width="24px" height="24px">
+                     <use xlink:href="img/icons.svg#photo-icon"></use>
+                  </svg>
+               <a class="sidebar-news-icons" href="#">
+                  <svg class="icon" width="24px" height="17px">
+                     <use xlink:href="img/icons.svg#video-icon"></use>
+                  </svg>
+               </a>
+            </span>
+         </div>
+         <div class="sidebar-news">
+            <a class="sidebar-news-link" href="#">
+               <h4 class="sidebar-news-title">Проишествия</h4>
+               <span class="sidebar-news-date">12.03.2021</span>
+               <p class="sidebar-news-text">В Ростове на Нахичевании 18-летний водитель устроил ДТП, пострадал пешеход</p>
+            </a>   
+            <span class="sidebar-icons-container">
+               <a class="sidebar-news-icons" href="#">
+                  <svg class="icon" width="24px" height="24px">
+                     <use xlink:href="img/icons.svg#photo-icon"></use>
+                  </svg>
+               <a class="sidebar-news-icons" href="#">
+                  <svg class="icon" width="24px" height="17px">
+                     <use xlink:href="img/icons.svg#video-icon"></use>
+                  </svg>
+               </a>
+            </span>
+         </div>
+         <div class="sidebar-news">
+            <a class="sidebar-news-link" href="#">
+               <h4 class="sidebar-news-title">Проишествия</h4>
+               <span class="sidebar-news-date">12.03.2021</span>
+               <p class="sidebar-news-text">В Ростове на Нахичевании 18-летний водитель устроил ДТП, пострадал пешеход</p>
+            </a>   
+            <span class="sidebar-icons-container">
+               <a class="sidebar-news-icons" href="#">
+                  <svg class="icon" width="24px" height="24px">
+                     <use xlink:href="img/icons.svg#photo-icon"></use>
+                  </svg>
+               <a class="sidebar-news-icons" href="#">
+                  <svg class="icon" width="24px" height="17px">
+                     <use xlink:href="img/icons.svg#video-icon"></use>
+                  </svg>
+               </a>
+            </span>
+         </div>
+         <div class="sidebar-news">
+            <a class="sidebar-news-link" href="#">
+               <h4 class="sidebar-news-title">Проишествия</h4>
+               <span class="sidebar-news-date">12.03.2021</span>
+               <p class="sidebar-news-text">В Ростове на Нахичевании 18-летний водитель устроил ДТП, пострадал пешеход</p>
+            </a>   
+            <span class="sidebar-icons-container">
+               <a class="sidebar-news-icons" href="#">
+                  <svg class="icon" width="24px" height="24px">
+                     <use xlink:href="img/icons.svg#photo-icon"></use>
+                  </svg>
+               <a class="sidebar-news-icons" href="#">
+                  <svg class="icon" width="24px" height="17px">
+                     <use xlink:href="img/icons.svg#video-icon"></use>
+                  </svg>
+               </a>
+            </span>
+         </div>
+         <div class="sidebar-news">
+            <a class="sidebar-news-link" href="#">
+               <h4 class="sidebar-news-title">Проишествия</h4>
+               <span class="sidebar-news-date">12.03.2021</span>
+               <p class="sidebar-news-text">В Ростове на Нахичевании 18-летний водитель устроил ДТП, пострадал пешеход</p>
+            </a>   
+            <span class="sidebar-icons-container">
+               <a class="sidebar-news-icons" href="#">
+                  <svg class="icon" width="24px" height="24px">
+                     <use xlink:href="img/icons.svg#photo-icon"></use>
+                  </svg>
+               <a class="sidebar-news-icons" href="#">
+                  <svg class="icon" width="24px" height="17px">
+                     <use xlink:href="img/icons.svg#video-icon"></use>
+                  </svg>
+               </a>
+            </span>
+         </div>
+         <div class="sidebar-news">
+            <a class="sidebar-news-link" href="#">
+               <h4 class="sidebar-news-title">Проишествия</h4>
+               <span class="sidebar-news-date">12.03.2021</span>
+               <p class="sidebar-news-text">В Ростове на Нахичевании 18-летний водитель устроил ДТП, пострадал пешеход</p>
+            </a>   
+            <span class="sidebar-icons-container">
+               <a class="sidebar-news-icons" href="#">
+                  <svg class="icon" width="24px" height="24px">
+                     <use xlink:href="img/icons.svg#photo-icon"></use>
+                  </svg>
+               <a class="sidebar-news-icons" href="#">
+                  <svg class="icon" width="24px" height="17px">
+                     <use xlink:href="img/icons.svg#video-icon"></use>
+                  </svg>
+               </a>
+            </span>
+         </div>
+         
+         
+      </div>
+      <!-- en of sidebar news container -->
+
+      <img class="sidebar-reclam" src="img/sidebarreclam.jpg" alt="reclam sport year">
+   </aside>
+</main>
+
+<div class="social-network-container">
+   <div class="social-network-container-bg">
+      <div class="social-network-container-info">
+      <h3 class="social-network-title">Мы в социальных сетях</h3>
+       <span class="social-network-text">Хотите получать еще больше полезной инфомации? Подписывайтесь на нас в соцсетях!</span>
+      
+      
+       <ul class="social-network-list">
+          <li>
+             <a class="social-network-container-links" href="">
+                <svg class="sn-icon" width="32px" height="32px">
+                   <use xlink:href="img/icons.svg#facebook"></use>
+                </svg>
+             </a>
+          </li>
+          <li>
+             <a class="social-network-container-links" href="">
+                <svg class="sn-icon" width="34px" height="17px">
+                   <use xlink:href="img/icons.svg#vk"></use>
+                </svg>
+             </a>
+          </li>
+          <li>
+             <a class="social-network-container-links" href="">
+                <svg class="sn-icon" width="26px" height="21px">
+                   <use xlink:href="img/icons.svg#twitter"></use>
+                </svg>
+             </a>
+          </li>
+          <li>
+             <a class="social-network-container-links" href="">
+                <svg class="sn-icon" width="26.5px" height="26.5px">
+                   <use xlink:href="img/icons.svg#instagramm"></use>
+                </svg>
+             </a>
+          </li>
+          <li>
+             <a class="social-network-container-links" href="">
+                <svg class="sn-icon" width="30px" height="30px">
+                   <use xlink:href="img/icons.svg#ok"></use>
+                </svg>
+             </a>
+          </li>
+          <li>
+             <a class="social-network-container-links" href="">
+                <svg class="sn-icon" width="26px" height="27px">
+                   <use xlink:href="img/icons.svg#youtube"></use>
+                </svg>
+             </a>
+       </ul>
+      </div>
+    
+   
+       
+      <svg class="sn-bg-element1" width="175px" height="175px">
+        <use xlink:href="img/icons.svg#SN-bg-element"></use>
+      </svg>
+      <svg class="sn-bg-element2" width="92px" height="92px">
+      <use xlink:href="img/icons.svg#SN-bg-element"></use>
+      </svg>
+   </div>
+</div>
+   
+
+   
+
+<div class="for-bg-elements">
+
+
+<section class="about-tvchannel">
+   <a href="#" class="blocks-title">Телепроекты</a>
+   
+   <div class="tvprojects-swiper">
+
+      <div class="tvprojects-button-prev swiper-buttons buttons-off">
+         <svg class="icon" height="56px" width="36px">
+            <use xlink:href="img/icons.svg#left-button"></use>
+          </svg>
+      </div>
+      <div class="tvprojects-button-next swiper-buttons buttons-off">
+         <svg class="icon" height="56px" width="36px">
+            <use xlink:href="img/icons.svg#right-button"></use>
+          </svg>
+      </div>
+     
+      <!-- Slider main container -->
+		<div class="swiper-container channel-slider-5">
+				<!-- Additional required wrapper -->
+			<div class="swiper-wrapper swiper-off">
+				<!-- Slides -->
+				<div class="swiper-slide tvprojects-swiper-slide">
+						<div class="video-thumb">
+							<img src="img/tretiyvozrast.jpg" alt="tretiyvozrast" class="thumbnail-5">
+							
+						</div>
+						<!--/. video thumb-->
+						<h3 class="tvprojects-video-title">Третий</h3>
+				</div>			
+				<!-- /. swiper-slide-->
+
+            <div class="swiper-slide tvprojects-swiper-slide">
+						<div class="video-thumb">
+							<img src="img/dom-po-pravilam.jpg" alt="dom-po-pravilam" class="thumbnail-5">
+							
+						</div>
+						<!--/. video thumb-->
+						<h3 class="tvprojects-video-title">Дом по правилам</h3>
+				</div>			
+				<!-- /. swiper-slide-->
+
+            <div class="swiper-slide tvprojects-swiper-slide">
+						<div class="video-thumb">
+							<img src="img/vremya-mestnoe.jpg" alt="vremya-mestnoe" class="thumbnail-5">
+							
+						</div>
+						<!--/. video thumb-->
+						<h3 class="tvprojects-video-title">Время местное</h3>
+				</div>			
+				<!-- /. swiper-slide-->
+
+            <div class="swiper-slide tvprojects-swiper-slide">
+               <div class="video-thumb">
+                  <img src="img/vybiraem.jpg" alt="vybiraem" class="thumbnail-5">
+                  
+               </div>
+               <!--/. video thumb-->
+               <h3 class="tvprojects-video-title">Время местное</h3>
+         </div>			
+         <!-- /. swiper-slide-->
+
+			</div>
+         <!--/. swiper-wrapper-->
+		</div>
+      <!-- /. swiper container-->
+   </div>
+
+   <button class="red-button"><a class="all-projects-link" href="#">Все проекты</a></button>
+
+
+   <a href="#" class="blocks-title">Лица Телеканала</a>
+
+   <div class="channel-persons">
+      <div class="person-card">
+         <img src="img/elena-komarova 1.jpg" alt="elena-komarova">
+         <div class="person-info">
+            <span class="person-name">Елена Комарова</span>      
+            <span class="person-post">Руководитель продюсерского центра</span>
+         </div>
+      </div>
+
+
+      <div class="person-card">
+         <img src="img/irina-chernaya 1.jpg" alt="irina-chernaya">
+         <div class="person-info">
+            <span class="person-name">Ирина Чёрная</span>
+            <span class="person-post">Руководитель программы “Утро”</span>
+         </div>
+      </div>
+
+      <div class="person-card">
+         <img src="img/aleksej-kiselevskij 1.jpg" alt="aleksej-kiselevskij">
+         <div class="person-info">
+            <span class="person-name">Алексей Киселевский</span>
+            <span class="person-post">Ведущий программы “Утро”</span>
+         </div>
+      </div>
+
+      <div class="person-card">
+         <img src="img/ulyana-alfeeva 1.jpg" alt="ulyana-alfeeva">
+         <div class="person-info">
+            <span class="person-name">Ульяна Алфеева</span>
+            <span class="person-post">Редактор программ</span>
+         </div>
+      </div>
+
+      <div class="person-card">
+         <img src="img/alina-malinina 1.jpg" alt="alina-malinina">
+         <div class="person-info">
+            <span class="person-name">Алина Малинина</span>
+            <span class="person-post">Ведущая программы “Утро”</span>
+         </div>
+      </div>
+
+      <div class="person-card">
+         <img src="img/yulya-alekseeva 1.jpg" alt="yulya-alekseeva">
+         <div class="person-info">
+            <span class="person-name">Юлия Алексеева</span>
+            <span class="person-post">Ведущая программы “Утро”</span>
+         </div>
+      </div>
+
+      <div class="person-card">
+         <img src="img/karina-argusova 1.jpg" alt="karina-argusova">
+         <div class="person-info">
+            <span class="person-name">Карина Аргусова</span>
+            <span class="person-post">Продюсер, ведущая программ </span>
+         </div>
+      </div>
+
+      <div class="person-card">
+         <img src="img/olga-kolomyjczeva 1.jpg" alt="olga-kolomyjczeva">
+         <div class="person-info">
+            <span class="person-name">Ольга Коломыйцева</span>
+            <span class="person-post">Шеф-редактор программы "Время-местное”</span>
+         </div>
+      </div>
+
+   </div>
+
+
+   <button class="red-button"><a class="all-team-link" href="#">Вся команда</a></button>
+
+   <a href="#" class="blocks-title">О телеканале</a>
+
+   <div class="about-channel">
+      <div class="left-side">
+         <h4 class="about-channel-title">Заголовок</h4>
+         <p>Значимость этих проблем настолько очевидна, что реализация намеченных плановых заданий в значительной степени обуславливает создание направлений прогрессивного развития. </p><br>
+         <p>Значимость этих проблем настолько очевидна, что консультация с широким активом требуют определения и уточнения модели развития. </p><br>
+         <p>Постоянное информационно-пропагандистское обеспечение нашей деятельности требуют определения и уточнения направлений прогрессивного развития.</p>
+      </div>
+
+      <div class="right-side">
+         <h4 class="about-channel-title">Телеканал «ДОН 24»</h4>
+         <p>И.О. Главного редактора <br> Комарова Елена Викторовна</p>
+         <p>Телефон/WhatsApp:<br><span>8 (863) 201-79-00</span></p>
+         <p>Электронная почта:<br><span>office@molotro.ru</span></p>
+         <p>Редакция:<br> <span>8 (863) 201-79-00 8 <br>8 (863) 201-89-88</span></p>
+
+      </div>
+   </div>
+
+   <button class="red-button"><a class="more-about-link" href="#">Подробнее</a></button>
+   
+
+   </div>
+
+   
+</section>
+<a class="youtube-banner" href="#"><img src="img/youtube_banner_d24 2.jpg" alt="youtube-banner"></a>
+
+
+<footer class="footer">
+   <div class="footer-container">
+      <div class="left-footer">
+
+         <div class="adress-block">
+            <img src="img/don24tv_bw_transp-2 1.png" alt="don24tv_bw_transp-2">
+            <h4>Адрес</h4>
+
+            <p>
+               Ростов-на-Дону, ул. Красноармейская, 123 <br>
+               Email: don24@don24.tv <br>
+               Телефон: +7 (123) 123 45 67
+            </p>
+            <p>
+               © Региональный информационный холдинг <br>
+               «ДОН-МЕДИА» <br>
+               2015-2021. Все права защищены.
+            </p>
+
+            <div class="subscribe-block mobile-subscribe-block">
+               <h4>Подписаться на новости</h4>
+               <span class="subscribe-area">
+                  <input type="email" name="subcribe" class="subscribe-input" placeholder="Email">
+                  <button type="submit" class="subscribe-button">
+                     <img src="img/right.png" alt="up">
+                  </button>
+               </span>
+            </div>
+         </div>
+
+
+         <div class="contacts-block">
+            <p>И.О. Главного редактора <br> Комарова Елена Викторовна</p> 
+            <p>Телефон/WhatsApp:<br><span>8 (863) 201-79-00</span></p> 
+            <p>Электронная почта:<br><span>office@molotro.ru</span></p> 
+            <p>Редакция:<br> <span>8 (863) 201-79-00 8 <br>8 (863) 201-89-88</span></p>
+         
+         
+         
+         </div>
+      
+
+         
+      </div>
+      <div class="right-footer">
+         <div class="info-block">
+            <h4>Новости "DON24.RU"</h4>
+            <p>Смс о выплатах: в России выявили новую схему мошенничества</p>
+            <p>Роспотребнадзор: в России обнаружен южноафриканский штамм ковида</p>
+            <p>Ландшафтный пожар в Аксайском районе тушили больше шести часов</p>
+         </div>
+         <div class="footer-social-network">
+            <h4>Социальные сети телеканала</h4>
+            <ul class="footer-social-network-list">
+               <li>
+                  <a class="footer-social-network-links" href="">
+                     <svg class="icon" width="22px" height="22px">
+                        <use xlink:href="img/icons.svg#facebook"></use>
+                     </svg>
+                  </a>
+               </li>
+               <li>
+                  <a class="footer-social-network-links" href="">
+                     <svg class="icon" width="22px" height="13px">
+                        <use xlink:href="img/icons.svg#vk"></use>
+                     </svg>
+                  </a>
+               </li>
+               <li>
+                  <a class="footer-social-network-links" href="">
+                     <svg class="icon" width="18px" height="14px">
+                        <use xlink:href="img/icons.svg#twitter"></use>
+                     </svg>
+                  </a>
+               </li>
+
+               <li>
+                  <a class="footer-social-network-links" href="">
+                     <svg class="icon" width="18px" height="18px">
+                        <use xlink:href="img/icons.svg#instagramm"></use>
+                     </svg>
+                  </a>
+               </li>
+               <li>
+                  <a class="footer-social-network-links" href="">
+                     <svg class="icon" width="20px" height="20px">
+                        <use xlink:href="img/icons.svg#ok"></use>
+                     </svg>
+                  </a>
+               </li>
+               <li>
+                  <a class="footer-social-network-links" href="">
+                     <svg class="icon" width="18px" height="18px">
+                        <use xlink:href="img/icons.svg#youtube"></use>
+                     </svg>
+                  </a>
+               </li>
+            </ul>
+            
+            
+            <div class="subscribe-block">
+               <h4>Подписаться на новости</h4>
+               <span class="subscribe-area">
+                  <input type="email" name="subcribe" class="subscribe-input" placeholder="Email">
+                  <button type="submit" class="subscribe-button">
+                     <img src="img/right.png" alt="up">
+                  </button>
+               </span>
+            </div>
+         </div>
+         
+      </div> 
+      <a href="#top" class="to-start">
+         <img src="img/up.png" alt="up">
+      </a>
+   </div>   
+</footer>
+</body>
+<script src="js/jquery-3.6.0.min.js"></script>
+   <script type="text/javascript" src="js/jquery.li-scroller.1.0.js"></script> 
+   <script src="js/scroll.js"></script>
+   <script src="js/swiper.js"></script>
+   <script src="js/main.js"></script>
+
+</html>
+
+
