@@ -336,14 +336,21 @@ header{
     width: 100%;
 }
 .mobile-live-all-programm{
-    display: none;
+    display: inline-block;
     fill:#cdcdcd;
     font-weight: 300;
     font-size: 24px;
     line-height: 32px;
     color: #313131;
-    margin-left: 68px;
-    max-width: 65px;
+    margin-left: 15px;
+    width: 60px;
+    height: 32px;
+    text-align: right;
+    
+}
+#mobile-all-programms{
+    display: none;
+    
 }
 /*******end of mobile menu*****/
 
@@ -1183,8 +1190,9 @@ fill: #205DB2;
     .live-programm-titles{
         width: 100%;
     }
-    .mobile-live-all-programm{
-        display: block;
+    #mobile-all-programms{
+        display: flex;
+        align-items: center;
     }
     .main-news, .about-tvchannel, .footer-container{
         margin: 0 auto;
