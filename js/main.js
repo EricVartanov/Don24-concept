@@ -1,8 +1,24 @@
+
+//fixed main nav menu
+
+const fxiedNav = $('.main-nav')
+const fixedNavLogo = $('.fixed-nav-logo').hide()
+
+$(window).scroll(function(){
+    if ($(this).scrollTop() > 220) {
+      fxiedNav.addClass('fixed-main-nav'),
+      fixedNavLogo.show(500)
+    } else {
+      fxiedNav.removeClass('fixed-main-nav'),
+      fixedNavLogo.hide(500)
+}
+})
+
+
 //mobile menu
 
 const secondMenu = $('.menu-second-list').slideToggle(1000)
 const menuLinks = $('.mobile-main-nav-links')
-const menuArrow = $('.mobile-menu-right')
 const mobileMenuOn = $('.mobile-menu-open')
 const mobileMenu = $('.menu-popup').hide()
 const mobileMenuoff = $('.mobile-menu-close').hide()
@@ -23,9 +39,7 @@ secondMenu.parent().click(function() {
   secondMenu.slideToggle(1000)
 });
 
-// menuLinks.click(function() {
-//   $(this).children().menuArrow.attr('src', 'img/mobile-menu-down.png')
-// })
+
 
 
 //refresh-logo
@@ -47,8 +61,33 @@ searchButton.mouseover(function(){
 
 })
 
-// END of Search area hide functions 
+//animations 
 
+
+$(document).ready(function animateBG () {
+const bgElement1 = $('.sn-bg-element1')
+
+
+  bgElement1.animate({right: "+=250px", top: "+=300px"}, 5000),
+  bgElement1.animate({right: "250px", top: "-=350px"}, 5000),
+  bgElement1.animate({right: "-=200px", top: "+=50px"}, 5000) 
+  
+  setInterval(animateBG, 15000)
+
+})
+
+$(document).ready(function animateBG1 () {
+  const bgElement2 = $('.sn-bg-element2')
+  
+  
+    bgElement2.animate({left: "+=450px", bottom: "+=300px"}, 5000),
+    bgElement2.animate({left: "450px", bottom: "-=350px"}, 5000),
+    bgElement2.animate({left: "-=450px", bottom: "+=50px"}, 5000) 
+    
+    setInterval(animateBG1, 15000)
+
+  })
+  
 //Banner slider 
 const swiper = new Swiper('.channel-slider', {
     // Optional parameters

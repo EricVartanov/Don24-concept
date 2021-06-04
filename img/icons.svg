@@ -42,4 +42,7 @@
   <symbol  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 175 175" id="SN-bg-element">
     <path opacity=".8" d="M111.265 175L175 110.725l-23.225-87.5L64.275 0 0 63.735l23.765 87.5 87.5 23.765z" ></path>
   </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 17" id="Subtract">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0h4.213l4.894 8.5L4.213 17H0l4.894-8.5L0 0z" ></path>
+  </symbol>
 </svg>
