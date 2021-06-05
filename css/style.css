@@ -1123,6 +1123,9 @@ fill: #205DB2;
     padding-left: 10px;
     transition: 0.5s;
 }
+.mobile-subscribe-block{
+    display: none;
+}
 .to-start{
     position: absolute;
     bottom: 0;
